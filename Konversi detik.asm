@@ -28,7 +28,7 @@ main proc
     
     mov ah, 2
     
-    ; Menampilkan JAM
+    ; Menampilkan Jam
     add jam, 30h
     mov dl, jam
     int 21h
@@ -40,7 +40,7 @@ main proc
     int 21h   
     
     
-    ; Menampilkan MENIT
+    ; Menampilkan Menit
     mov dl, ' '
     int 21h 
     add menit, 30h
@@ -57,7 +57,7 @@ main proc
     mov dl, 't'
     int 21h
     
-    ; Menampilkan DETIK
+    ; Menampilkan Detik
     mov dl, ' '
     int 21h
     add detik_sisa, 30h
