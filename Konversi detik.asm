@@ -2,7 +2,7 @@
 .stack 100h
 
 .data
-detik dw 3665
+detik dw 3665 ;Detik yang ingin di masukkan
 jam db 0 
 menit db 0
 detik_sisa dw 0
